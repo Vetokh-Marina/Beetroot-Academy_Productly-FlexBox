@@ -1,3 +1,4 @@
+@import url('../css/normalize.css');
 @font-face {
     font-family: 'Montserrat-Regular';
     src: url('../assets/fonts/Montserrat-Regular.ttf');
@@ -16,7 +17,6 @@ html, body{
 }
 img {
   display: block;
-  max-width: 100%;
   height: auto;
 }
 h1,h2 {
@@ -143,5 +143,33 @@ section{
    .features__btn{
     margin: 0 auto;
     text-align: center;
+    padding: 13px;
    }
+   /* Benefits */
+.benefits .flex{
+    gap: 113px;
+}
+.title__description{
+    margin-bottom: 40px;
+    max-width: 525px;
+}
+.benefits__img{
+    max-width: 562px;
+    max-height: 573px;
+}
+.benefits__list{
+    list-style: none;
+    padding: 0;
+}
+.benefits__list__item:not(:last-child){
+    margin-bottom: 30px;
+}
+.title__4{
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #2F281E;
+}
+.title__description .title__2{
+    text-align: left;
+}
     
