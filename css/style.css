@@ -19,7 +19,7 @@ img {
   display: block;
   height: auto;
 }
-h1,h2 {
+h1,h2,h3 {
    color: #2F281E;
    font-weight: 700;
    font-family: 'Montserrat-Bold', sans-serif;
@@ -212,5 +212,52 @@ ul{
 }
 .marketers .flex{
     gap: 82px;
+}
+.footer::before{
+    content: "";
+    background-color: rgba(188, 208, 229, 0.496913);
+    height: 1px;
+    display: block;
+}
+
+.footer .flex{
+    padding: 70px 0;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.title__3{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.footer__input{
+    width: 340px;
+    height: 50px;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3px;
+    margin-bottom: 25px;
+}
+.footer__form .features__btn{
+    margin: 0;
+}
+.quick__item a,
+.stuff__item a{
+    text-decoration: none;
+    color: #544837;
+    
+}
+.stuff__item,
+.quick__item:not(:last-child){
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 16px; 
+}
+.stuff__item,
+.quick__item{
+    font-weight: 500;
+    font-size: 16px;
 }
     
