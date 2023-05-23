@@ -27,6 +27,10 @@ h1,h2 {
 section{
     padding-bottom: 100px;
 }
+ul{
+    list-style: none;
+    padding: 0;
+}
 
 .container{
     margin: 0 auto;
@@ -43,7 +47,6 @@ section{
     align-items: center;
 }
 .menu{
-    list-style: none;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -171,5 +174,38 @@ section{
 }
 .title__description .title__2{
     text-align: left;
+}
+
+/* product-managers */
+.product__managers .flex{
+    gap: 110px;
+}
+.product__item{
+    position: relative;
+    padding-left: 50px;
+    
+}
+.product__item:not(:last-child){
+    padding-bottom: 30px;
+}
+
+.product__list .product__item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 2px;
+    top: 10px;
+    background: url(../assets/img/tick.svg) center center/cover no-repeat;
+}
+.product__description{
+    margin-bottom: 40px;
+}
+.product__description > .title__2{
+    margin-bottom: 20px;
+}
+.product__manager__text{
+   padding: add48px 0;
 }
     
