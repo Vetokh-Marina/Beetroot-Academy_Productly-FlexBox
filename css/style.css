@@ -164,7 +164,7 @@ ul{
     list-style: none;
     padding: 0;
 }
-.benefits__list__item:not(:last-child){
+.list__item:not(:last-child){
     margin-bottom: 30px;
 }
 .title__4{
@@ -172,8 +172,10 @@ ul{
     font-weight: 700;
     color: #2F281E;
 }
-.title__description .title__2{
+.title__description .title__2,
+.marketers__descriptions .title__2{
     text-align: left;
+    margin-bottom: 20px;
 }
 
 /* product-managers */
@@ -196,7 +198,7 @@ ul{
     height: 35px;
     width: 35px;
     left: 2px;
-    top: 10px;
+    top: 9px;
     background: url(../assets/img/tick.svg) center center/cover no-repeat;
 }
 .product__description{
@@ -207,5 +209,8 @@ ul{
 }
 .product__manager__text{
    padding: add48px 0;
+}
+.marketers .flex{
+    gap: 82px;
 }
     
